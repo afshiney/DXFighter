@@ -16,8 +16,8 @@ namespace DXFighter\lib;
  */
 class Line extends Entity {
   protected $thickness;
-  protected $start;
-  protected $end;
+  public $start;
+  public $end;
   protected $extrusion;
 
   /**
